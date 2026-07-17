@@ -2,12 +2,85 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=index.php" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirigiendo...</title>
+    <title>Nova Studio — Landing Page moderna</title>
+    <meta
+      name="description"
+      content="Una landing page moderna, juvenil y minimalista para marcas que quieren destacar."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p>Redirigiendo a la landing actualizada...</p>
-    <script>window.location.href = 'index.php';</script>
+    <div class="page-shell">
+      <header class="topbar">
+        <a href="#" class="brand">Nova<span>Studio</span></a>
+        <nav class="nav-links">
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Diseño que conecta con la próxima generación</p>
+            <h1>Tu idea merece una presencia que inspire desde el primer vistazo.</h1>
+            <p class="hero-text">
+              Creamos páginas modernas, rápidas y elegantes para estudiantes,
+              marcas emergentes y proyectos que quieren crecer con estilo.
+            </p>
+            <div class="hero-actions">
+              <a href="#contacto" class="btn btn-primary">Quiero una propuesta</a>
+              <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
+            </div>
+            <div class="hero-badges">
+              <div>
+                <strong>+120</strong>
+                <span>proyectos lanzados</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>valoración de clientes</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="image-card">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+                alt="Equipo joven trabajando en un proyecto creativo"
+              />
+            </div>
+            <div class="floating-card">
+              <p>En solo 7 días</p>
+              <strong>Listo para destacar online</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="highlights" id="servicios">
+          <article>
+            <h3>Minimalista</h3>
+            <p>Diseño limpio, claro y con foco en lo importante.</p>
+          </article>
+          <article>
+            <h3>Rápido</h3>
+            <p>Optimizado para que cargue ligero y se vea perfecto.</p>
+          </article>
+          <article>
+            <h3>Persuasivo</h3>
+            <p>Mensaje claro, CTA visible y experiencia intuitiva.</p>
+          </article>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
